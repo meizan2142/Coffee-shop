@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background-image: url("hero-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 40px 300px 0 300px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 2.5em;
+    font-weight: 800;
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+.logo a span {
+    color: #994D1C;
+}
+
+.logo a:hover {
+    color: #994D1C;
+    transition: 0.3s ease;
+}
+
+.icon {
+    display: none;
+    font-size: 30px;
+}
+
+.list-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.list-items li {
+    list-style: none;
+    
+}
+
+.list-items li:hover {
+    color: #994D1C;
+    transition: 0.3s ease;
+}
+
+.main-text {
+    margin-top: 250px;
+}
+
+.main-text h1 {
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 70px;
+}
+
+.main-text p {
+    font-size: 20px;
+    font-weight: 100px;
+    margin-top: 20px;
+}
+
+.main-text button {
+    padding: 15px 25px 15px 25px;
+    color: black;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+    margin-top: 40px;
+}
+
+.main-text button:hover {
+    background-color: #994D1C;
+    color: white;
+    transition: 0.3s ease;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    
+    body {
+        margin: 20px  20px 0px  20px;
+        }
+
+    .main-text {
+        display: grid;
+    }
+    
+    .icon {
+        display: inline;
+    }
+
+    .list-items {
+        display: none;
+    }
+
+    .main-text {
+        margin-top: 150px;
+        text-align: center;
+    }
+
+    .icon i:hover {
+        color: #994D1C;
+        transition: 0.3s ease;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 960px){
+    body {
+        margin: 30px  30px 0px  30px;
+        }
+
+        .list-items {
+            display: none;
+        }
+
+        .icon {
+            display: inline;
+        }
+
+        .main-text {
+            margin-top: 350px;
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 3.5em;
+        }
+
+        .icon {
+            font-size: 40px;
+        }
+
+        .main-text h1 {
+            font-size: 60px;
+        }
+
+        .main-text p {
+            font-size: 25px;
+        }
+
+        .main-text button {
+            font-size: 30px;
+        }
+
+        .main-text button:hover {
+            background-color: #994D1C;
+        }
+
+        .icon i:hover {
+            color: #994D1C;
+            transition: 0.3s ease;
+        }
+}
+
+@media screen and (min-width:  960px) and (max-width: 1440px){
+    body {
+        margin: 30px  30px 0px  30px;
+        }
+
+        .list-items {
+            display: none;
+        }
+
+        .icon {
+            display: inline;
+        }
+
+        .main-text {
+            margin-top: 150px;
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 3.5em;
+        }
+
+        .icon {
+            font-size: 40px;
+        }
+
+        .main-text h1 {
+            font-size: 60px;
+        }
+
+        .main-text p {
+            font-size: 25px;
+        }
+
+        .main-text button {
+            font-size: 30px;
+            padding: 15px 25px 15px 25px;
+        }
+
+        .icon i:hover {
+            color: #994D1C;
+            transition: 0.3s ease;
+        }
+}
