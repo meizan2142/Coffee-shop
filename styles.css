@@ -96,14 +96,18 @@ nav {
 
 
 
-
-
+@media screen and (max-width: 280px) {
+    .main-text button {
+        padding: 0px 0px 0px 0px;
+    }
+}
 
 
 @media screen and (max-width: 576px) {
     
     body {
-        margin: 20px  20px 0px  20px;
+        margin: 20px  10px 0px  10px;
+        height: 100vh;
         }
 
     .main-text {
@@ -127,7 +131,13 @@ nav {
         color: #994D1C;
         transition: 0.3s ease;
     }
+
+    .main-text h1 {
+        font-size: 50px;
+    }
+
 }
+
 
 @media screen and (min-width: 576px) and (max-width: 960px){
     body {
@@ -143,7 +153,7 @@ nav {
         }
 
         .main-text {
-            margin-top: 350px;
+            margin-top: 260px;
             text-align: center;
         }
 
@@ -160,7 +170,7 @@ nav {
         }
 
         .main-text p {
-            font-size: 25px;
+            font-size: 20px;
         }
 
         .main-text button {
@@ -191,7 +201,7 @@ nav {
         }
 
         .main-text {
-            margin-top: 150px;
+            margin-top: 350px;
             text-align: center;
         }
 
@@ -204,11 +214,13 @@ nav {
         }
 
         .main-text h1 {
-            font-size: 60px;
+            font-size: 70px;
+            line-height: 100px;
         }
 
         .main-text p {
             font-size: 25px;
+            line-height: 35px;
         }
 
         .main-text button {
